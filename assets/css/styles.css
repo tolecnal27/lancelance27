@@ -676,6 +676,32 @@ img {
   font-size: var(--small-font-size);
 }  
 
+/*=============== SMALL GREEN BUTTON ===============*/
+.button__small {
+  padding: 4px 8px;               
+  font-size: 0.75rem;             
+  color: #fff;                     
+  background-color: #28a745;       
+  border: 2px solid #28a745;       
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+
+  /* Center outside the card */
+  display: block;
+  text-align: center;
+  margin: 0rem auto;   /* reduced from 0.5rem to 0.2rem for closer spacing */
+}
+
+/* Hover effect */
+.button__small:hover {
+  background-color: #218838;      
+  border-color: #218838;
+  transform: translateY(-1px);    
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
 /*=============== TOPIC SECTIONS ===============*/
 .topic {
   background-color: var(--container-color);
@@ -1030,4 +1056,5 @@ img {
   body{
     zoom: 1.4;
   }
+}
 }
