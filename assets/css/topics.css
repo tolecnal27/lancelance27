@@ -1,0 +1,42 @@
+/* Topic posts grid */
+/* Dark background for topic pages */
+body {
+  background-color: hsl(220, 8%, 8%);
+  color: hsl(220, 8%, 90%);
+}
+
+/* Center section titles */
+.topic .section__title {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: var(--white-color);
+}
+
+.topic__posts {
+  display: grid;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.topic__card {
+  background-color: hsl(220, 8%, 12%);
+  color: hsl(220, 8%, 90%);
+  border: 1px solid hsla(0,0%,100%,0.1);
+  border-radius: 1.5rem;
+  overflow: hidden;
+  padding: 1rem;
+  max-width: 300px;
+  text-align: center;
+  transition: transform .3s, box-shadow .3s;
+}
+
+.topic__card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.topic__img {
+  width: 100%;
+  border-radius: 1.5rem;
+  margin-bottom: 1rem;
+}
